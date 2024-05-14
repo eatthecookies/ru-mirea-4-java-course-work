@@ -1,0 +1,24 @@
+.my-datepicker {
+    font-family: Arial, sans-serif; /* Используйте шрифт, соответствующий вашему дизайну */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    background-color: #fff; /* Цвет фона */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px; 
+    padding: 20px; /* Отступы внутри поля */
+    width: 200px; /* Ширина поля */
+    transition: 0.7s;
+    /* position: absolute; */
+  }
+
+  .container{
+    position: relative;
+  }
+.react-datepicker__input-container input {
+    /* width: 100%; Растягиваем текстовое поле на всю ширину */
+    /* border: none; Удаляем границу у текстового поля */
+    outline: none; /* Убираем обводку при фокусе */
+    /* height: 100%; */
+    transition: 0.7s;
+  }
+  

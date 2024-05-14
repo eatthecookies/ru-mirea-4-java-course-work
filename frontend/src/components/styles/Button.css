@@ -1,0 +1,16 @@
+.button {
+    font-family: Roboto; /* Используйте шрифт, соответствующий вашему дизайну */
+    font-size: 19px; /* Размер шрифта */
+    color: #fff; /* Цвет текста */
+    background-color: #007bff; /* Цвет фона */
+    border: none; /* Удаляем границу */
+    border-radius: 5px; /* Закругление углов */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Изменяем цвет фона при наведении */
+  }
+  

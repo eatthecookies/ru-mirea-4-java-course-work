@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Добавляем отступы для пространства вокруг содержимого */
+  }
+  
+  .logo {
+    font-size: 2rem; /* Настройте размер логотипа по вашему усмотрению */
+    position: relative;
+    top: -4.5px;
+    color: #dcab0af8;
+    font-weight: 1500;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    margin: auto; /* Перемещаем меню вправо */
+  }
+  
+  .item {
+    margin: 0 10px; /* Добавляем небольшие отступы между элементами меню */
+    text-decoration: none;
+     /* Цвет ссылок */
+    color: #333;
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+  }
+  
+  .item:hover {
+    color: #78c306f8; /* Изменяем цвет ссылок при наведении */
+  }
+  

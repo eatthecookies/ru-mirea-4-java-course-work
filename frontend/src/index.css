@@ -1,0 +1,77 @@
+@font-face {
+  font-family: IgraSans;
+  src: url("fonts/IgraSans.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url("fonts/Manrope-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Pusia;
+  src: url("fonts/Pusia-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Resist;
+  src: url("fonts/resist-sans-text-7.otf") format("opentype");
+}
+@font-face {
+  font-family: ResistLite;
+  src: url("fonts/Groteskly\ Yours\ -\ Resist\ Sans\ Text\ Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Kharkiv Tone;
+  src: url("fonts/KharkivTone.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("fonts/Comfortaa.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Floripa;
+  src: url("fonts/Floripa.otf") format("opentype");
+}
+@font-face {
+  font-family: Fractal;
+  src: url("fonts/FRACTAL.ttf") format("opentype");
+}
+@font-face {
+  font-family: Montblanc;
+  src: url("fonts/Montblanc\ Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: Perun;
+  src: url("fonts/Perun.ttf") format("opentype");
+}
+@font-face {
+  font-family: Quinque;
+  src: url("fonts/QuinqueFive.ttf") format("opentype");
+}
+@font-face {
+  font-family: Rostov;
+  src: url("fonts/Rostov.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hero;
+  src: url("fonts/Hero.ttf") format("opentype");
+}
+
+body {
+  margin: 0 40px;
+  padding: 0;
+  font-family: Resist;
+  font-size: 14pt;
+  height: 100vh;
+  color: #555555;
+}
+

@@ -1,0 +1,61 @@
+.button-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-right: 5%;
+    padding: 40px 0 ;
+    width: 20%;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 60%; */
+}
+.tour-card-vertical {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height:20%;
+  }
+  .tour-card-vertical__image {
+    width: 20%;
+    /* height: 0; */
+    /* padding-bottom: 20%;  */
+    position: relative;
+    overflow: hidden;
+}
+
+.tour-card-vertical__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+  
+  .tour-card-vertical__details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .tour-card-vertical__name {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .tour-card-vertical__country,
+  .tour-card-vertical__rating,
+  .tour-card-vertical__price {
+    margin: 5px 0;
+  }
+  

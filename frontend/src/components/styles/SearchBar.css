@@ -1,0 +1,7 @@
+.searchBars {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: stretch; 
+    gap: 10px; 
+    margin: 40px 150px;
+  }

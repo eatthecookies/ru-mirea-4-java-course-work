@@ -1,0 +1,24 @@
+
+.custom-select {
+    font-family: Arial, sans-serif; /* Используйте шрифт, соответствующий вашему дизайну */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    background-color: #fff; /* Цвет фона */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px; /* Закругление углов */
+    padding: 12px; /* Отступы внутри элемента */
+    width: 300px; /* Ширина элемента */
+    }
+    
+.custom-select option {
+    font-family: Arial, sans-serif; /* Используйте шрифт, соответствующий вашему дизайну */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    padding: 20px 20px;
+}
+
+.custom-select:focus {
+    height: auto; /* Устанавливаем автоматическую высоту для выпадающего списка при фокусе */
+    overflow-y: auto; /* Добавляем вертикальную прокрутку, если список слишком большой */
+}
+      
